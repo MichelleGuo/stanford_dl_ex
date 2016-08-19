@@ -32,11 +32,7 @@ f = 1/2 * f;
 % Step 2: Compute gradient  
 for j =1:n
     for i=1:m
-        g(j)=g(j)+X(j,i)*(theta' * X(:,i) - y(i));
-    end
-end
-
-
+        g(j)=g(j)+X(j,i)+
         
     
 
